@@ -1,0 +1,5 @@
+package com.sidd.ioc;
+
+public interface Coach {
+
+}

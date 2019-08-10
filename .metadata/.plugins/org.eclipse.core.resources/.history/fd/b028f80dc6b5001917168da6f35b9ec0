@@ -1,0 +1,15 @@
+package com.sidd.ioc;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class BadmintonPlayer implements Coach {
+
+	@Override
+	public void getDailyRoutine() {
+		// TODO Auto-generated method stub
+		System.out.println("please play badminton with full efforts");
+
+	}
+
+}

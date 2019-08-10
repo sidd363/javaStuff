@@ -1,0 +1,32 @@
+package coreJava;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.stream.Stream;
+
+public class dbs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println(20+1.34f+"A"+"B");
+//		Stream.of(100,200,300,400,500)
+//		.filter(e->e>300)
+//		.peek(System.out::println)
+//		.findFirst()
+//		.orElse(null);
+		dbs d=new dbs();
+		d.start();
+	}
+	void start() {
+		boolean d1=false;
+		boolean d2=fit(d1);
+		System.out.println(d1+" "+d2);
+	}
+	boolean fit(boolean d) {
+		
+		d=true;
+		return d;
+	}
+		
+
+}

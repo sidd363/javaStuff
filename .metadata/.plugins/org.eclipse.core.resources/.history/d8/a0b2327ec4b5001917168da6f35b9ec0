@@ -1,0 +1,11 @@
+package com.sidd.ioc;
+
+public class HappyFortune implements Coach {
+
+	@Override
+	public void getDailyRoutine() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

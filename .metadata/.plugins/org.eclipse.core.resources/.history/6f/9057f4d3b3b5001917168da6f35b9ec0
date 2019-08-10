@@ -1,0 +1,27 @@
+package coreJava;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.stream.Stream;
+
+public class dbs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println(20+1.34f+"A"+"B");
+//		Stream.of(100,200,300,400,500)
+//		.filter(e->e>300)
+//		.peek(System.out::println)
+//		.findFirst()
+//		.orElse(null);
+		
+		try {
+			throw new FileNotFoundException();
+		}catch(IOException e) {
+			System.out.println("Io exception");
+		}catch(FileNotFoundException fe) {
+			System.out.println("file not found  exception");
+		}
+	}
+
+}
