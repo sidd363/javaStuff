@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;coreJava.LambdEx.java&apos; to &apos;LambdaEx.java&apos;&#x0A;- Original project: &apos;coreJava&apos;&#x0A;- Original element: &apos;coreJava.LambdEx.java&apos;&#x0A;- Renamed element: &apos;coreJava.LambdaEx.java&apos;" description="Rename compilation unit &apos;LambdEx.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;coreJava{LambdEx.java" name="LambdaEx.java" references="false" stamp="1565424383101" version="1.0"/>
+</session>
