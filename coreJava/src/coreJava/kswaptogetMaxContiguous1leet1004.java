@@ -17,6 +17,7 @@ public class kswaptogetMaxContiguous1leet1004 {
     	int r = 0;
     	int oneInEachWindow = 0;
     	int maxOne = 0;
+    	int zeroc=0;
     	System.out.println("totalOne "+totalOne);
     	System.out.println("len of array "+A.length);
     	while(r<A.length) {
@@ -25,6 +26,7 @@ public class kswaptogetMaxContiguous1leet1004 {
     			maxOne = oneInEachWindow;
     			System.out.println("oneInEachWindow in first"+oneInEachWindow);
     			System.out.println("------------");
+    			zeroc = totalOne-oneInEachWindow;
     		}else {
     			if(A[l]==1) {
     				oneInEachWindow--;
@@ -38,7 +40,14 @@ public class kswaptogetMaxContiguous1leet1004 {
     			System.out.println("------------");
     			//compare one each window with max one and update it
     			maxOne = Math.max(maxOne, oneInEachWindow);
+    			zeroc = totalOne-maxOne;
     		}
+    	}
+    	int ans =0;
+    	if(zeroc >= K) {
+    		ans = K+maxOne;
+    	}else {
+    		
     	}
     	return maxOne+K>A.length ?A.length:maxOne+K ;
         
