@@ -78,7 +78,6 @@ class bfs
 		System.out.println("Following is Breadth First Traversal "+ 
 						"(starting from vertex 2)"); 
 
-		g.BFS(2); 
+		g.BFS(0); 
 	} 
 } 
-//This code is contributed by Aakash Hasija 
