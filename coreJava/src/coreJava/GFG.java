@@ -1,4 +1,3 @@
-package coreJava;
 
 //Java program to find first and last occurrence of 
 //an elements in given sorted array 

@@ -1,4 +1,3 @@
-package coreJava;
 import java.util.*;
 public class shortestBridge {
     public int shortestBridgeFind(int[][] grid) {

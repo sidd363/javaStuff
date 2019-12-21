@@ -1,4 +1,3 @@
-package coreJava;
 
 public class RemoveNthNode19 {
 	int val;

@@ -1,4 +1,4 @@
-package coreJava;
+
 
 import java.util.*;
 public class asFarAsFromLand {

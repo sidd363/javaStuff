@@ -1,4 +1,3 @@
-package coreJava;
 //Java program implementing Singleton class 
 //with getInstance() method 
 class Singleton 

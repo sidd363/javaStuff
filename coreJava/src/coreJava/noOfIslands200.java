@@ -1,4 +1,3 @@
-package coreJava;
 
 public class noOfIslands200 {
     public static int numIslands(char[][] grid) {

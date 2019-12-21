@@ -1,4 +1,4 @@
-package coreJava;
+
 
 public class kswaptogetMaxContiguous1leet1004 {
 
