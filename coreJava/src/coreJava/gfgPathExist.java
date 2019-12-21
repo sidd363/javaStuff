@@ -8,7 +8,7 @@ public class gfgPathExist {
 	//3 0 0 0 0 3 3 0 0 1 0 3 0 2 3 3 
 	//3
 	//0 3 2 3 0 0 1 0 0
-	private static boolean pathexist(int[][] grid, int []target, int r, Queue<int[]> q) {
+	private static int pathexist(int[][] grid, int []target, int r, Queue<int[]> q) {
 		
 		 
 		boolean[][] visited = new boolean[r][r];
@@ -24,7 +24,7 @@ public class gfgPathExist {
 				 int dx =x+dirs[i];
 				 int dy = y+dirs[i+1];
 				 if(dx==target[0] && dy==target[1]) {
-					 return true;
+					 return 1;
 				 }
 				 if(dx>=0 && dx<r && dy>=0 && dy<r && !visited[dx][dy] && grid[dx][dy]==3 ) {
 					 visited[dx][dy] = true;
@@ -33,7 +33,7 @@ public class gfgPathExist {
 			 }
 			 
 		 }
-		return false;
+		return 0;
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
